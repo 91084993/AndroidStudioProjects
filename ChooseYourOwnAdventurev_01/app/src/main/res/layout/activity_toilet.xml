@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:orientation="vertical"
+    tools:context="com.example.palmdigital.chooseyourownadventurev_01.ToiletActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15sp" />
+
+    <TextView
+        android:id="@+id/tvTitleToilet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Your Own Adventurev01"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15sp" />
+
+    <TextView
+        android:id="@+id/tvStoryToilet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="As you pour the ooze into the toilet it backs up, gurgles, and explodes, covering you in radioactive waste."
+        android:textSize="27sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15sp" />
+
+    <TextView
+        android:id="@+id/tvQuestionToilet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do you want to train to be a NINJA?  'Yes' or 'HECK YES'?"
+        android:textSize="28sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ButtonLeftYes"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/ButtonRightHECKYES"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:text="Button" />
+    </LinearLayout>
+</LinearLayout>
