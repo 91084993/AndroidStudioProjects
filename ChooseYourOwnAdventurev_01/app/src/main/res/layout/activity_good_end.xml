@@ -4,33 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/darker_gray"
+    android:background="@android:color/holo_green_light"
     android:orientation="vertical"
-    tools:context="com.example.palmdigital.chooseyourownadventurev_01.WakeUpActivity">
+    tools:context="com.example.palmdigital.chooseyourownadventurev_01.GoodEndActivity">
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="25dp" />
+        android:layout_height="15sp" />
 
     <TextView
-        android:id="@+id/tvTitleWakeUp"
+        android:id="@+id/tvTitleGoodEnd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Choose Your Own Adventure v_01"
+        android:text="Choose Your Own Adventurev01"
         android:textAlignment="center"
         android:textSize="20sp" />
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="25dp" />
+        android:layout_height="20sp" />
 
     <TextView
-        android:id="@+id/tv_StoryWakeUp"
+        android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="You wake up and have a boring day. The end."
-        android:textAlignment="viewStart"
-        android:textSize="35sp" />
+        android:text="Awesome dude!  You live out the rest of your life fighting crimes and eating pizza!"
+        android:textSize="30sp" />
 
     <Space
         android:layout_width="match_parent"
@@ -44,8 +43,9 @@
         <Button
             android:id="@+id/buttonRestart"
             android:layout_width="wrap_content"
-            android:layout_height="150dp"
+            android:layout_height="150sp"
             android:layout_weight="1"
             android:text="Restart" />
     </LinearLayout>
+
 </LinearLayout>
