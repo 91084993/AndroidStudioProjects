@@ -24,7 +24,8 @@ public class WakeUpActivity extends AppCompatActivity implements View.OnClickLis
     {
         if(view.getId() == R.id.buttonRestart)
         {
-            
+            Intent i = new Intent(this, MainActivity.class);
+            startActivity(i);
         }
     }
 
