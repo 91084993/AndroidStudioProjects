@@ -10,7 +10,7 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="15dp" />
+        android:layout_height="6dp" />
 
     <TextView
         android:id="@+id/tvTitleBackyard"
@@ -22,18 +22,24 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="15sp" />
+        android:layout_height="6dp" />
 
     <TextView
         android:id="@+id/tvStoryBackyard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="As you walk into the backyard a net scoops you up and a giant takes you to a boiling pot of water."
-        android:textSize="27sp" />
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/cauldron" />
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="15sp" />
+        android:layout_height="6dp" />
 
     <TextView
         android:id="@+id/tvQuestionBackyard"
@@ -44,7 +50,7 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="15dp" />
+        android:layout_height="6dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
