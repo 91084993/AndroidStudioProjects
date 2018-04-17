@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         story = story + AdjStr;
         story = story + " and ";
         story = story + Adj2Str;
+        story = story + ".";
         story = story + " Tomorrow he will be mine. For now he ";
         story = story + Verb2Str;
         story = story + " in the store ";
