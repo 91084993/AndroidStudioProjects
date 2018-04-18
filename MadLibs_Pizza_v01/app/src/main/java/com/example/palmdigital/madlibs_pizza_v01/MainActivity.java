@@ -26,9 +26,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
        EditText et_nationality = findViewById(R.id.et_Nationality);
        String nationalityStr   = et_nationality.getText().toString();
 
+       EditText et_name = findViewById(R.id.et_name);
+       String nameStr = et_name.getText().toString();
+
+       EditText et_noun1 = findViewById(R.id.et_noun1);
+       String nounStr = et_noun1.getText().toString();
+
        String story            = " Pizza was invented by a ";
        story = story + adj1Str;
        story = story + " " + nationalityStr;
+       story = story + " " + nameStr;
+       story = story + " " + nounStr;
 
         TextView output         = findViewById(R.id.tvStory);
         output.setText(story);
